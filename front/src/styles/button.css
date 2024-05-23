@@ -1,0 +1,24 @@
+.space-button {
+    position: relative;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    z-index: 1000;
+    margin: 0 5px;
+  }
+
+  .btn-red {
+    color: #FF0000;
+    border: px solid #FF0000;
+  }
+
+  .btn-green {
+    color: #00FF00;
+    border: 2px solid #00FF00;
+  }
+
+
+  

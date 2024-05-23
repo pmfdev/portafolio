@@ -1,0 +1,131 @@
+{
+	"textures": [
+        
+		{	
+            "filename": "explosion_sprite.png",
+		
+			"frames": [
+           
+				{
+					"filename": "explode1",							
+					"frame": {
+						"x": 0,
+						"y": 10,
+						"w": 250,
+						"h": 250
+					}				
+				},
+                {
+					"filename": "explode2",							
+					"frame": {
+						"x": 300,
+						"y": 10,
+						"w": 250,
+						"h": 250
+					}				
+				},
+                {
+					"filename": "explode3",							
+					"frame": {
+						"x": 600,
+						"y": 10,
+						"w": 250,
+						"h": 250
+					}				
+				},
+                {
+					"filename": "explode4",							
+					"frame": {
+						"x": 900,
+						"y": 10,
+						"w": 250,
+						"h": 250
+					}				
+				},
+                {
+					"filename": "explode5",							
+					"frame": {
+						"x": 0,
+						"y": 300,
+						"w": 250,
+						"h": 250
+					}				
+				},
+                {
+					"filename": "explode6",							
+					"frame": {
+						"x": 300,
+						"y": 300,
+						"w": 250,
+						"h": 250
+					}				
+				},
+                {
+					"filename": "explode7",							
+					"frame": {
+						"x": 600,
+						"y": 300,
+						"w": 250,
+						"h": 250
+					}				
+				},
+                {
+					"filename": "explode8",							
+					"frame": {
+						"x": 900,
+						"y": 300,
+						"w": 250,
+						"h": 250
+					}				
+				},
+                {
+					"filename": "explode9",							
+					"frame": {
+						"x": 0,
+						"y": 600,
+						"w": 250,
+						"h": 250
+					}				
+				},
+                {
+					"filename": "explode10",							
+					"frame": {
+						"x": 300,
+						"y": 600,
+						"w": 250,
+						"h": 250
+					}				
+				},
+                {
+					"filename": "explode11",							
+					"frame": {
+						"x": 600,
+						"y": 600,
+						"w": 250,
+						"h": 250
+					}				
+				},
+                {
+					"filename": "explode12",							
+					"frame": {
+						"x": 900,
+						"y": 600,
+						"w": 250,
+						"h": 250
+					}				
+				}
+
+
+              
+                
+			
+				
+			
+		
+				
+		
+	
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  .intro-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: yellow;
+    text-align: center;
+    perspective: 500px;
+    overflow: hidden;
+  }
+  
+  .intro-text h1 {
+    margin: 0;
+    padding: 0;
+    transform-origin: center;
+    animation: scrollText 10s linear forwards;
+  }
+  
+  @keyframes scrollText {
+    0% {
+      transform: translateZ(0) translateY(100vh) rotateX(90deg);
+      opacity: 0;
+    }
+    5% {
+      opacity: 1;
+    }
+    90% {
+      transform: translateZ(0) translateY(-20vh) rotateX(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform: translateZ(-1000px) translateY(-100vh) rotateX(-90deg);
+      opacity: 0;
+    }
+  }
+  

@@ -1,0 +1,47 @@
+/* Estilo general de la navegación */
+.nav {
+    top: 10px;
+    position: fixed;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid #4b5563; 
+    border-radius: 20px; 
+    z-index: 1000;
+
+  }
+  
+  /* Contenedor de la navegación */
+  .nav__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Enlaces de la navegación */
+  .nav__container__links {
+    display: flex;
+  }
+
+  .nav__container__links a {
+    margin-right: 20px;
+  }
+  
+  /* Estilo de cada enlace */
+  .nav__container__links__link {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Estilo cuando el enlace está activo o se encuentra en estado hover */
+  .nav__container__links__link:hover,
+  .nav__container__links__link.router-link-active {
+    color: #42b983; /* Cambia este color según tus preferencias */
+  }
+  
+
+  
