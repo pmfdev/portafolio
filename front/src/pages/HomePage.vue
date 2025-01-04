@@ -8,7 +8,8 @@
         <a @click="scrollToSection('inicio')">Inicio</a>
         <a @click="scrollToSection('experiencia')">Experiencia</a>
         <a @click="scrollToSection('proyectos')">Proyectos</a>
-        <router-link v-if="!isMobile()" class="nav__container__links__link" to="/cv">CV Interactivo (Beta)</router-link>
+        <a class="downloadCV" href="/documents/pmfCV.pdf" download="pmfCV.pdf">Descargar CV</a>
+        <router-link v-if="!isMobile()" class="nav__container__links__link" to="/cv">h</router-link>
       </div>
     </div>
   </nav>
@@ -474,9 +475,9 @@ Me encanta compartir conocimientos con colegas, promoviendo el crecimiento colec
           </p>
           <p>
             Durante mi trayectoria profesional, he tenido el privilegio de participar en proyectos emblemático: como el desarrollo de múltiples aplicaciones frontend para <strong>Fundación La Caixa</strong>. Esta experiencia me brindó la oportunidad de demostrar mis habilidades técnicas y mi capacidad para trabajar en un entorno exigente y de alto impacto          </p>
-          <p v-if="!isMobile()">
+          <!-- <p v-if="!isMobile()">
             ¿Te gustaría descubrir más sobre mi experiencia de una manera más interactiva? ¡Entonces estás invitado a echar un vistazo a mi CV interactivo! Actualmente se encuentra en fase Beta, pero será una experiencia entretenida. 😊 <router-link  class="nav__container__links__link" to="/cv">¡Haz clic aquí para explorarlo! </router-link>
-         </p>
+         </p> -->
         </div>
         <div>
           <div class="container-image">
@@ -485,7 +486,7 @@ Me encanta compartir conocimientos con colegas, promoviendo el crecimiento colec
         </div>
       </div>
     </section>
-    <section class="contact" id="app">
+    <!-- <section class="contact" id="app">
       <h2>Contacto</h2>
       <div>
         <textarea v-model="mensaje" name="message" id="message" placeholder="Escribe tu mensaje"></textarea>
@@ -495,7 +496,7 @@ Me encanta compartir conocimientos con colegas, promoviendo el crecimiento colec
       <input type="text" v-model="email" placeholder="Escribe tu email">
       
       <button @click="enviarMensaje">Enviar mensaje</button>
-    </section>
+    </section> -->
     <section>
       <div class="footer">
         <div>

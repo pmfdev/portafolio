@@ -359,3 +359,149 @@ font-weight: 100;
 
 
 
+/* Ajuste general para pantallas pequeñas */
+@media (max-width: 768px) {
+    .sub-section {
+        flex-direction: column; /* Cambia la disposición a columna */
+        gap: 20px; /* Agrega espacio entre los elementos */
+    }
+
+    .section-text-1,
+    .section-text-2 {
+        flex-basis: 100%; /* Cada sección ocupa el 100% del ancho */
+    }
+
+    ol {
+        margin-top: 20px; /* Reduce el margen en pantallas pequeñas */
+    }
+
+    li {
+        padding-left: 20px; /* Reduce el espacio de padding en los ítems */
+        padding-bottom: 40px; /* Reduce el espacio inferior */
+    }
+}
+
+/* Ajustes adicionales para pantallas muy pequeñas (móviles) */
+@media (max-width: 480px) {
+    .sub-section {
+        gap: 15px; /* Reduce aún más el espacio entre secciones */
+    }
+
+    .section-3,
+    .section-4 {
+        flex-direction: column; /* Cambia la disposición a columna */
+        gap: 15px; /* Agrega espacio entre elementos */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Reduce el tamaño del encabezado */
+    }
+
+    h3, h4 {
+        font-size: 1.2rem; /* Reduce el tamaño de los títulos */
+    }
+
+    .preview {
+        font-size: 14px; /* Reduce el tamaño del texto en botones */
+        padding: 8px 12px; /* Reduce el padding */
+    }
+
+    li {
+        padding-left: 10px; /* Reduce aún más el espacio lateral */
+        padding-bottom: 20px; /* Ajusta el espacio inferior */
+    }
+}
+
+/* Media Queries generales */
+@media (max-width: 658px) {
+    /* Sección de Proyectos */
+    #proyectos .section-3 {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    #proyectos .section-3__image {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    #proyectos .section-3 img {
+      width: 100%;
+      height: auto;
+    }
+  
+    #proyectos .section-text-3 {
+      padding: 10px;
+    }
+  
+    /* Tecnologías utilizadas */
+    .section-5 {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .section-5 .frontend, .section-5 .backend {
+      width: 100%;
+    }
+  
+    .section-5 .items_frontend, .section-5 .items_backend {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 15px;
+    }
+  
+    .section-5 .items_frontend__item, .section-5 .items_backend__item {
+      text-align: center;
+    }
+  
+    /* Sobre mí */
+    .section-4 {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .section-4 img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+
+  
+  @media (max-width: 480px) {
+    /* Sección de Proyectos */
+    #proyectos .section-3 {
+      gap: 10px;
+    }
+  
+    #proyectos h3 {
+      font-size: 1.2rem;
+    }
+  
+    #proyectos .preview {
+      font-size: 12px;
+      padding: 8px 10px;
+    }
+  
+    /* Tecnologías utilizadas */
+    .section-5 .items_frontend, .section-5 .items_backend {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+  
+    .section-5 .items_frontend__item span, .section-5 .items_backend__item span {
+      font-size: 0.8rem;
+    }
+  
+    /* Sobre mí */
+    .section-4 {
+      gap: 20px;
+    }
+  
+    .section-4 p {
+      font-size: 0.8rem;
+    }
+  }
+  

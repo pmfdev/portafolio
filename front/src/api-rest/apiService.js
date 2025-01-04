@@ -10,7 +10,7 @@ export const trackVisit = async (pageType) => {
     return response.data;
   } catch (error) {
     console.error('Error al hacer la llamada a la API:', error);
-    throw error;
+    // throw error;
   }
 };
 
@@ -23,7 +23,7 @@ export const sendMessage = async (email, message) => {
     return response.data;
   } catch (error) {
     console.error('Error al hacer la llamada a la API:', error);
-    throw error;
+    // throw error;
   }
 }
 

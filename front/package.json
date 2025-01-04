@@ -17,6 +17,7 @@
     "axios": "^1.6.8",
     "cannon": "^0.6.2",
     "core-js": "^3.8.3",
+    "cv-app": "file:",
     "mitt": "^3.0.1",
     "oh-vue-icons": "^1.0.0-rc3",
     "phaser": "^3.70.0",

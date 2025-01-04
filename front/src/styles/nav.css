@@ -27,14 +27,21 @@
   .nav__container__links a {
     margin-right: 20px;
   }
+
+  .nav__container__links .downloadCV {
+    color: #42b983;
+    text-decoration: none;
+  }
   
   /* Estilo de cada enlace */
   .nav__container__links__link {
-    margin-right: 20px;
-    color: white;
+    /* margin-right: 20px; */
+    /* color: white;
     text-decoration: none;
     font-size: 16px;
-    transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out; */
+    margin: 0!important;
+    opacity: 0;
   }
   
   /* Estilo cuando el enlace está activo o se encuentra en estado hover */
